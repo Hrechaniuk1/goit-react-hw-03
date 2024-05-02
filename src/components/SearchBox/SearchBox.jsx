@@ -8,7 +8,7 @@ export default function SearchBox({doSearch, inputValue}) {
     return (
         <div>
             <Formik
-                initialValues={{searchInput: ''}}
+                initialValues={{name: ''}}
             >
                 <Form className={css.search}>
                     <label htmlFor={SearchId}>Find contacts by name</label>
